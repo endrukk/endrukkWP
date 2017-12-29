@@ -1,0 +1,17 @@
+@import "../../../base/less/mixins";
+
+@musicmacho_timer_text_color: '';
+@musicmacho_timer_text_hover_color: '';
+@musicmacho_timer_background_color: '';
+@musicmacho_timer_align: '';
+
+.brandingCounter,.countdown .booking{
+	text-align: @musicmacho_timer_align;
+}
+.countdownGoinglive .counterDay, .countdownGoinglive .counterHour, .countdownGoinglive .counterMinute, .countdownGoinglive .counterSecond{
+	color: @musicmacho_timer_text_color;
+	background: @musicmacho_timer_background_color;
+}
+.counterDay:hover p.days, .counterHour:hover p.hours, .counterMinute:hover p.minutes, .counterSecond:hover p.seconds{
+	color: @musicmacho_timer_text_hover_color;
+}

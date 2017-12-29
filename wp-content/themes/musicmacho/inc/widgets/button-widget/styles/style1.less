@@ -1,0 +1,64 @@
+@import "../../../base/less/mixins";
+
+@musicmacho_button_width: '';
+@musicmacho_border_width: '';
+@musicmacho_hover_color: #AC403C;
+@musicmacho_has_button_width: false;
+@musicmacho_button_color: #292A2E;
+@musicmacho_text_color: #FFFFFF;
+@musicmacho_padding_left: 40px;
+@musicmacho_padding_bottom: 15px;
+@musicmacho_padding_right: 40px;
+@musicmacho_padding_top: 15px;
+@musicmacho_font_size: 16px;
+@musicmacho_has_text: true;
+@musicmacho_border_width: 2px;
+@musicmacho_border_radius: '';
+@musicmacho_button_font: '';
+@musicmacho_button_fontweight: '';
+
+.button-base {
+    .clearfix();
+    display: block;
+    a {
+        .font(@musicmacho_button_font, @musicmacho_button_fontweight);
+        .box-sizing(border-box);
+        width: @musicmacho_button_width;
+        font-size: @musicmacho_font_size;
+        padding-left: @musicmacho_padding_left;
+        padding-top: @musicmacho_padding_top;
+        padding-right: @musicmacho_padding_right;
+        padding-bottom: @musicmacho_padding_bottom;
+        background: @musicmacho_button_color;
+        border-radius: @border-radius;
+
+        color: @musicmacho_text_color !important;
+
+        .rounded(@rounding);
+
+        text-shadow: 0 1px 0 rgba(0,0,0,0.05);
+        [class^="sow-icon-"] {
+            margin-right: 10px;
+            color: @musicmacho_text_color !important;
+        }
+        .sow-icon-image,
+        [class^="sow-icon-"] {
+            -0.1em 0.75em -0.2em -0.75em
+        }
+
+        &:visited,
+        &:active,
+        &:hover{
+            color: @musicmacho_text_color !important;
+        }
+
+        &.button-hover:hover {
+            background: @musicmacho_button_color;
+            color: @musicmacho_text_color !important;
+            box-shadow: 5px 5px 0px @musicmacho_hover_color;
+        }
+    }
+}
+.ow-button-base a [class^="sow-icon-"] {
+    margin: -0.1em 0.75em -0.2em -0.75em;
+}

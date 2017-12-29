@@ -1,0 +1,57 @@
+Version 1.0
+i)  Theme Submitted for approval.
+
+Version 1.0.1
+i)  Added TGM Activation.
+
+Version 1.0.2
+i)  Fixed Small Bugs.
+
+Version 1.0.3
+i)  Data validation Fixes.
+
+Version 1.0.4
+i)  Fixed Small Issues
+
+Version 1.0.5
+i)  Updated Script Handlers.
+
+Version 1.0.6
+i)  Updated Script Handlers.
+ii) All Licenses For Js And Css
+
+Version 1.0.7 (11th July 2016)
+i)  Fixed Contact Form Isuue
+ii) Fixd Subscribe form Action issue
+
+Version 1.0.8 (09th Dec 2016)
+i) Display Site Title and Tagline option fixed.
+ii) Removed subscribe option.
+iii) Fixed front page options.
+
+Version 1.0.9 (13th Dec 2016)
+i) Used header video function.
+ii) Minor bug fixes.
+
+Version 1.0.10 (17th Feb 2017)
+i) Fixed default front page template.
+
+Version 1.0.11 (27th Feb 2017)
+i) Changed Font-Awsome licence.
+ii) Data validation Fixes.
+
+Version 1.0.12 (27th Feb 2017)
+i) Minor bug fixes.
+
+Version 1.0.13 (01st March 2017)
+i) Added widgets for pagebuilder.
+
+Version 1.0.14 (03rd March 2017)
+i) Added documentation link.
+
+Version 1.0.15 (03rd March 2017)
+i) Removed documentation link.
+ii) Fixed escaping issues.
+
+Version 1.0.16 (11th March 2017)
+i) Changed Screenshot.png

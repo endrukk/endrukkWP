@@ -1,0 +1,57 @@
+.button-base {
+  zoom: 1;
+  /* All the special styles */
+}
+.button-base:before {
+  content: '';
+  display: block;
+}
+.button-base:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.button-base {
+  width: 100%;
+}
+.button-base a {
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 1em;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.button-base a .sicon-image,
+.button-base a [class^="sicon-"] {
+  font-size: 1.3em;
+  height: 1em;
+  width: auto;
+  margin: -0.1em 0.75em -0.2em -0.75em;
+  display: block;
+  float: left;
+}
+.button-base a .sicon-image {
+  width: 1em;
+  background-size: cover;
+}
+.button-base.button-align-left {
+  text-align: left;
+}
+.button-base.button-align-right {
+  text-align: right;
+}
+.button-base.button-align-center {
+  text-align: center;
+}
+.button-base.button-align-justify a {
+  display: block;
+}
+.sow-hero-buttons .so-widget-button-widget{
+  display: inline-block;
+  margin: 0 6px;
+}
